@@ -1,0 +1,11 @@
+Package: com.mologie.betterpasscodekeypad
+Name: BetterPasscodeKeypad
+Description: Disables highlighting keypresses on the passcode keypad.
+Version: 0.1
+Section: Tweaks
+Maintainer: Oliver Kuckertz <oliver.kuckertz@mologie.de>
+Author: Oliver Kuckertz <oliver.kuckertz@mologie.de>
+Depends: firmware (>= 7), mobilesubstrate
+Architecture: iphoneos-arm
+Section: Tweaks
+Priority: optional
