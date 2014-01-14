@@ -5,7 +5,6 @@
 
 TWEAK_NAME = BetterPasscodeKeypad
 BetterPasscodeKeypad_FILES = BetterPasscodeKeypad.x
-BetterPasscodeKeypad_FRAMEWORKS = UIKit
 
 # Use make DEBUG=1 for building binaries which output logs
 DEBUG ?= 0
