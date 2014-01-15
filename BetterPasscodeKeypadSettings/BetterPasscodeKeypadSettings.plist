@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>title</key>
+	<string>BetterPasscodeKeypad</string>
+	<key>items</key>
+	<array>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>isStaticText</key>
+			<true/>
+			<key>footerText</key>
+			<string>Disabling this toggle disables highlighting passcode characters on the keypad.</string>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.mologie.betterpasscodekeypad.settingschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.mologie.betterpasscodekeypad</string>
+			<key>key</key>
+			<string>KeypadAnimations</string>
+			<key>label</key>
+			<string>Keypad animations</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>isStaticText</key>
+			<true/>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.mologie.betterpasscodekeypad.settingschanged</string>
+			<key>cell</key>
+			<string>PSLinkListCell</string>
+			<key>default</key>
+			<integer>0</integer>
+			<key>defaults</key>
+			<string>com.mologie.betterpasscodekeypad</string>
+			<key>detail</key>
+			<string>PSListItemsController</string>
+			<key>key</key>
+			<string>AudioFeedback</string>
+			<key>label</key>
+			<string>Keypad sound</string>
+			<key>validTitles</key>
+			<array>
+				<string>Default</string>
+				<string>Enabled</string>
+				<string>Disabled</string>
+			</array>
+			<key>validValues</key>
+			<array>
+				<integer>0</integer>
+				<integer>1</integer>
+				<integer>2</integer>
+			</array>
+		</dict>
+		<dict>
+			<key>PostNotification</key>
+			<string>com.mologie.betterpasscodekeypad.settingschanged</string>
+			<key>cell</key>
+			<string>PSSwitchCell</string>
+			<key>default</key>
+			<false/>
+			<key>defaults</key>
+			<string>com.mologie.betterpasscodekeypad</string>
+			<key>key</key>
+			<string>HapticFeedback</string>
+			<key>label</key>
+			<string>Vibrate</string>
+		</dict>
+		<dict>
+			<key>cell</key>
+			<string>PSGroupCell</string>
+			<key>footerText</key>
+			<string>Beta versions and the change log can be found on the project homepage.
+
+BtrPasscodeKeypad © 2014 Oliver Kuckertz</string>
+			<key>isStaticText</key>
+			<true/>
+		</dict>
+        <dict>
+			<key>action</key>
+			<string>visitWebsite:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Project homepage</string>
+        </dict>
+        <dict>
+			<key>action</key>
+			<string>sendEmail:</string>
+			<key>cell</key>
+			<string>PSButtonCell</string>
+			<key>label</key>
+			<string>Email support</string>
+        </dict>
+	</array>
+</dict>
+</plist>
