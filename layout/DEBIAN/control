@@ -3,8 +3,8 @@ Name: BetterPasscodeKeypad
 Description: Enhance security by customizing the passcode keypad.
 Version: 0.2
 Section: Tweaks
-Maintainer: Oliver Kuckertz <oliver.kuckertz@mologie.de>
-Author: Oliver Kuckertz <oliver.kuckertz@mologie.de>
+Maintainer: Oliver Kuckertz <support+cydia@mologie.com>
+Author: Oliver Kuckertz <support+cydia@mologie.com>
 Depends: firmware (>= 7), mobilesubstrate, preferenceloader
 Architecture: iphoneos-arm
 Section: Tweaks
