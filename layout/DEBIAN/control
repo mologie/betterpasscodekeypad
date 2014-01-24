@@ -1,7 +1,7 @@
 Package: com.mologie.betterpasscodekeypad
 Name: BetterPasscodeKeypad
 Description: Enhance security by customizing the passcode keypad.
-Version: 0.2
+Version: 0.2.1
 Section: Tweaks
 Maintainer: Oliver Kuckertz <support+cydia@mologie.com>
 Author: Oliver Kuckertz <support+cydia@mologie.com>
